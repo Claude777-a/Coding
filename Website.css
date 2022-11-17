@@ -1,3 +1,33 @@
+body {
+    background-color: lime;
+}
 .aer {
     text-align: center;
+}
+h1 {
+    color: red;
+}
+h2{
+color:black;
+}
+h3{
+color:purple;
+}
+h4{
+color:yellow;
+}
+h5{
+color:orange;
+}
+h6{
+color:green;
+}
+.h1{
+    background-color:#ff6347;color:#bbff67; font-size:200%; text-align:right;
+}
+.h1-1{
+    background-color:cyan;color:#000000; font-size:200%; text-align:right;
+}
+ul{
+    list-style-type:disc;
 }
