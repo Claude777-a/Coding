@@ -85,7 +85,10 @@ h1
  }
  .tabel
  {
-  background-color: black; width: 875px;
+  background-color: black; 
+  width: 875px;
+  text-align: center;
+  margin: auto;
  }
  .randmain
  {
