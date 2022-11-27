@@ -25,9 +25,8 @@ h1
    font-size: 20px; 
 }
  .Survival {
-   background-color: #00FFFF;/* Green */ 
+   background-color: #33CCFF; /* Bleu */ 
    border: all;
-   color:  green;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -35,9 +34,8 @@ h1
 }
  .Horror 
  {
-   background-color:  #00FFFF;/* Green */ 
+   background-color:  #33CCFF; /* Bleu */ 
    border: all;
-   color:  green;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -45,9 +43,8 @@ h1
  }
  .Open-World 
  {
-   background-color:  #00FFFF;/* Green */ 
+   background-color:  #33CCFF; /* Bleu */ 
    border: all;
-   color: green;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -55,9 +52,8 @@ h1
  }
  .Quest
  {
-   background-color:  #00FFFF;/* Green */ 
+   background-color:  #33CCFF; /* Bleu */ 
    border: all;
-   color: green;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -65,9 +61,8 @@ h1
  }
  .Shooter 
  {
-   background-color: #00FFFF;/* Green */ 
+   background-color: #33CCFF; /* Bleu */ 
    border: all;
-   color: green;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -75,20 +70,20 @@ h1
  }
  .Strategy 
  {
-   background-color: #00FFFF;/* Green */ 
+   background-color: #33CCFF; /* Bleu */ 
    border: all;
-   color: green;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 12px;
  }
- .tabel
+ .Tabel1
  {
   background-color: black; 
   width: 875px;
   text-align: center;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
  }
  .randmain
  {
@@ -170,7 +165,6 @@ h1
  .BTT
  {
    background-color: green;
-   color: #000099;
    text-align: center;
    font-size: 30px;
  }
