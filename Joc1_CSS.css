@@ -1,0 +1,19 @@
+.main {
+    background-color: #66CC00;
+}
+
+.title{
+    text-align: center;
+    color: blue;
+}
+
+.fraza{
+    color: red;
+    font-size: 36px;
+    font-family: 'Times New Roman';
+}
+
+.BTT {
+    font-size: 36px;
+    color: #3300FF;
+}
