@@ -1,0 +1,103 @@
+body {
+  background-color: #66CC00;
+}
+
+h1 {
+  text-align: center;
+  color: #0033CC;
+  font-size: 36px;
+}
+
+section a:link {
+  text-decoration: none;
+  display: block;
+  width: 220px;
+  color: red;
+  font-weight: bolder;
+}
+
+section a:hover {
+  color: darkgreen;
+}
+
+.rand>th>a {
+  text-decoration: none;
+  color: #990000;
+  font-family: 'Calibri';
+}
+
+#tableofcontents a:hover {
+  color: aqua;
+  font-style: italic;
+}
+
+#tableofcontents a:active {
+  color: aqua;
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1px;
+}
+
+.TableOfContents {
+  color: #9900CC;
+  text-align: center;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+p {
+  color: #FF0000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.Lista-jocuri {
+  color: blue;
+  font-weight: bolder;
+}
+
+.gametype {
+  background-color: #33CCFF;
+  /* Bleu */
+  border: 2px black solid;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 1px;
+}
+
+#tableofcontents {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  width: 1500px;
+  font-size: 20px;
+}
+
+.randmain {
+  color: black;
+  background-color: #0099FF;
+  text-align: center;
+}
+
+.rand {
+  width: 175px;
+  background-color: #0099FF;
+  text-align: center;
+  color: #990000;
+}
+
+.coloana {
+  width: 300px;
+}
+
+.BTT {
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+}
