@@ -1,103 +1,128 @@
 body {
   background-color: #66CC00;
-}
-
-h1 {
-  text-align: center;
-  color: #0033CC;
-  font-size: 36px;
-}
-
-section a:link {
-  text-decoration: none;
-  display: block;
-  width: 220px;
-  color: red;
-  font-weight: bolder;
-}
-
-section a:hover {
-  color: darkgreen;
-}
-
-.rand>th>a {
-  text-decoration: none;
-  color: #990000;
-  font-family: 'Calibri';
-}
-
-#tableofcontents a:hover {
-  color: aqua;
-  font-style: italic;
-}
-
-#tableofcontents a:active {
-  color: aqua;
-  font-style: italic;
-}
-
-li {
-  list-style: none;
-  margin-bottom: 1px;
-}
-
-.TableOfContents {
-  color: #9900CC;
-  text-align: center;
-  font-size: 36px;
-  text-decoration: none;
-}
-
-p {
-  color: #FF0000;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-.Lista-jocuri {
-  color: blue;
-  font-weight: bolder;
-}
-
-.gametype {
-  background-color: #33CCFF;
-  /* Bleu */
-  border: 2px black solid;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 12px;
-  margin-bottom: 1px;
-}
-
-#tableofcontents {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: black;
-  width: 1500px;
+  font-family: Calibri, Arial, serif;
   font-size: 20px;
 }
 
-.randmain {
-  color: black;
-  background-color: #0099FF;
-  text-align: center;
+body a{
+font-style: italic;
+color: blue;
+text-decoration: none;
 }
 
-.rand {
-  width: 175px;
-  background-color: #0099FF;
-  text-align: center;
-  color: #990000;
+body a:hover, body a:active{
+color: aqua;
 }
 
-.coloana {
-  width: 300px;
+.TableOfContents{
+text-transform: uppercase;
 }
 
-.BTT {
-  text-decoration: none;
+.col{
+width: 220px;
+border: solid 2px black;
+background-color: orange;
+}
+
+.tableofgames{
+width: 1100px;
+background-color: black;
+border: solid 1px black;
+font-size: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1{
+color: darkblue;
+text-align: center;
+font-weight: bold;
+font-size: 36px;
+font-family: Calibri;
+text-transform: uppercase;
+}
+
+p{
   text-align: center;
-  font-size: 30px;
+  font-weight: bold;
+}
+
+body > p{
+font-size: 30px;
+color: red;
+}
+
+p a{
+color: #9900CC;
+font-size: 50px;
+text-decoration: none;
+}
+
+.coloana{
+width: 300px;
+background-color: orange;
+border: solid 2px black;
+color: blue;
+}
+
+#tableofcontents{
+background-color: black;
+border: solid 2px black;
+margin-left: auto;
+margin-right: auto;
+width: 1500px;
+}
+
+table{
+  font-size: 25px;
+}
+
+.highlight {
+  background-color: darkgreen;
+  color: orange;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: arial black;
+  line-height: 35px;
+}
+
+article > p {
+  border: 4.5px solid black;
+  border-radius: 30px;
+}
+
+.imagine{ /* approximate ratio width:height = 3:2 */
+  width: 435px;
+  height: 290px;
+  border: 3px solid black;
+  border-radius: 50px;
+}
+
+.motto{
+  background-color: cyan;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 500px;
+  height: 150px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  position: absolute;
+  bottom: 575px;
+  left: 1330px;
+}
+
+.motto:hover {
+  overflow-y: scroll;
+}
+
+.classification {
+  display: inline-block;
+  text-align: unset;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 110px;
+  font-size: 40px;
+  font-weight: bold;
+  color: lavender;
 }
