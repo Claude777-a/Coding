@@ -1,0 +1,95 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Calibri, serif;
+}
+
+h1{
+    color: deepskyblue;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2 > section{
+    text-align: right;
+}
+
+.type{
+    display: block;
+    background-color: lightgray;
+    text-align: center;
+    margin-bottom: 5px;
+    color: red;
+    text-decoration: none;
+    border: solid 2px black;
+    font-weight: bold;
+    padding: 10px;
+    float: left;
+    margin-left: 12px;
+    margin-right: 5px;
+    width: 19%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.type:hover{
+    color:yellow;
+    font-style: italic;
+}
+
+.imagine{
+    float: left;
+    margin-right: 20px;
+    clear: right;
+    margin-left: 40px;
+    border-radius:50px;
+}
+
+.startup {
+    margin-left: 20px;
+    display: block;
+    background-color: aqua;
+    height: 500px;
+    width: 50%;
+    margin-left: 900px;
+    border: solid 4px black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.subtitle{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.paragraf{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+    margin-bottom: 40px;
+}
+
+.BTT{
+    color: darkviolet;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.BTT:hover{
+    color: yellow;
+}
+
+.TOP{
+    text-align: center;
+}
